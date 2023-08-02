@@ -91,7 +91,7 @@ class TopRated extends Component {
     this.getProducts3()
   }
 
-  failure = () => <Failureview />
+  failure = () => <Failureview click={this.click} />
 
   centeracess2 = () => {
     const {status3} = this.state

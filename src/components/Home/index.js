@@ -149,7 +149,7 @@ class Home extends Component {
     this.getProducts1()
   }
 
-  failure = () => <Failureview />
+  failure = () => <Failureview click={this.click} />
 
   sucess = () => {
     const {Trend} = this.state
@@ -203,7 +203,7 @@ class Home extends Component {
     )
   }
 
-  failure2 = () => <Failureview click={this.makingclick()} />
+  failure2 = () => <Failureview click={this.makingclick} />
 
   acess2 = () => {
     const {status1} = this.state

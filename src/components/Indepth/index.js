@@ -182,7 +182,7 @@ class Indepth extends Component {
     this.Indepth()
   }
 
-  failure = () => <Failureview click={this.click()} />
+  failure = () => <Failureview click={this.click} />
 
   acess = () => {
     const {status} = this.state

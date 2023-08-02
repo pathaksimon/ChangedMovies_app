@@ -1,10 +1,10 @@
 import './index.css'
 
 const Failureinbackground = props => {
-  const {clickonbackground} = props
+  const {clickinbackground} = props
 
   const tryagain = () => {
-    clickonbackground()
+    clickinbackground()
   }
 
   return (
